@@ -91,6 +91,7 @@ gem 'omniauth-facebook'
 
 gem 'solidus_wishlist', github: 'boomerdigital/solidus_wishlist', branch: 'master'
 
-
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
 
 
