@@ -5,7 +5,6 @@ require 'rails/all'
 require 'csv'
 
 
-config.assets.initialize_on_precompile = false
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -13,6 +12,9 @@ Bundler.require(*Rails.groups)
 
 module Solidus
   class Application < Rails::Application
+
+    config.assets.initialize_on_precompile = false
+
     # Load application's model / class decorators
     initializer 'spree.decorators' do |app|
       config.to_prepare do
