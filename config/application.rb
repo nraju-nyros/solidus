@@ -14,6 +14,7 @@ module Solidus
   class Application < Rails::Application
 
     config.assets.initialize_on_precompile = false
+config.serve_static_assets = true
 
     # Load application's model / class decorators
     initializer 'spree.decorators' do |app|
