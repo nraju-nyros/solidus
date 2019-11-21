@@ -265,6 +265,7 @@ GEM
     paranoia (2.4.2)
       activerecord (>= 4.0, < 6.1)
     pdf-core (0.7.0)
+    pg (0.21.0)
     polyamorous (2.3.0)
       activerecord (>= 5.0)
     polyglot (0.3.5)
@@ -482,6 +483,7 @@ DEPENDENCIES
   omniauth
   omniauth-facebook
   omniauth-google-oauth2
+  pg (~> 0.18)
   prawn
   prawn-table (~> 0.2.2)
   pry
