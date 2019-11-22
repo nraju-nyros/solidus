@@ -45,8 +45,8 @@ development:
 #
  
 
-# production:
-#   <<: *default
-#   database: solidus
-#   username: solidus
-#   password: <%= ENV['SOLIDUS_DATABASE_PASSWORD'] %>
+production:
+  <<: *default
+  database: solidus
+  username: solidus
+  password: <%= ENV['SOLIDUS_DATABASE_PASSWORD'] %>
